@@ -8,6 +8,7 @@ if (!isset($_SESSION['loginData'])) {
         </script>';
   exit;
 }
+
 ?>
 <!doctype html>
 <html>
@@ -695,7 +696,7 @@ if (!isset($_SESSION['loginData'])) {
         </div>
         <?php } ?>
 
-        <?php if($_SESSION['checklist']['project_type'] != 'DXN Video'){ ?>
+        <?php if(isset($_SESSION['checklist']['project_type']) && ($_SESSION['checklist']['project_type'] != 'DXN Video')){ ?>
         <!-- Listing - Payment Gateway  -->
         <div class="mb-3">
           <h3 class="lightblue">Payment Gateway</h3>
