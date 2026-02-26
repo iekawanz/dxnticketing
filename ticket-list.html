@@ -1,0 +1,470 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta http-equiv="Content-Type" content="text/html">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DXN Customer Support Ticketing System</title>
+  <meta name="title" content="" />
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+  <meta name="copyright" content="" />
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+
+  <!--******** CSS ********-->
+  <link href="css/reset.css" rel="stylesheet" type="text/css" media="all"/>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css?family=Material+Icons" rel="stylesheet">
+  <link href="vendor/fontawesome-pro-6.0.0-beta2-web/css/all.css" rel="stylesheet">
+  <link href="vendor/bootstrap-5.2.3/css/bootstrap.css" rel="stylesheet" type="text/css" media="all"/>
+  <link href="css/common.css" rel="stylesheet" type="text/css" media="all"/>
+  <link href="css/overwrite-bootstrap.css" rel="stylesheet" type="text/css" media="all"/>
+  <link href="css/animate.css" rel="stylesheet"/>
+</head>
+
+<body>
+  <div class="layer-right">
+
+    <!-- Header -->
+    <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center mb-5">
+      <h1>My Ticket</h1>
+    </div>
+
+    <!-- Form -->
+    <div class="row">
+      <div class="col-lg-8">
+        <div class="form-general row">
+            <div class="col-sm-6">
+                <label class="text-start">Category</label>
+                <select class="form-control">
+                    <option selected >All</option>
+                    <option>Enquire</option>
+                    <option>Request</option>
+                    <option>Complaint</option>
+                </select>
+            </div>
+            <div class="col-sm-6">
+                <label class="text-start">Status</label>
+                <select class="form-control">
+                    <option selected >All</option>
+                    <option>Pending</option>
+                    <option>In Process</option>
+                    <option>Completed</option>
+                </select>
+            </div>
+        </div>
+
+        
+      </div>
+      <div class="col-lg-4"></div>
+    </div>
+
+    <!-- Sort-->
+    <div class="d-flex justify-content-between align-items-center mt-2 mb-3">
+        <div class="d-flex justify-content-between align-items-center">
+            <p class="m-0">show</p>
+            <select class="mx-2">
+                <option>10</option>
+                <option>25</option>
+                <option>50</option>
+                <option>100</option>
+            </select>
+            <p class="m-0">entries</p>
+        </div>
+        <div>
+          <p class="m-0">*click title for sorting</p>
+        </div>
+    </div>
+
+    <!-- Table -->
+    <div class="table-responsive">
+        <table class="table table-hover bg-white">
+          <thead class="table-primary">
+            <tr>
+              <th width="5%">No</th>
+              <th width="10%">Ticket No</th>
+              <th width="30%">Subject</th>
+              <th width="20%" class="text-center">Ratings</th>
+              <th width="10%" class="text-center">Status</th>
+              <th width="25%" class="text-center">Registered Date & Time</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr data-bs-toggle="collapse" data-bs-target="#collapseTicket" aria-expanded="false" aria-controls="collapseTicket">
+              <th>1</td>
+              <td>GR003</td>
+              <td>Language Translation Enquiry</td>
+              <td class="col-rate">
+                  <span>★</span>
+                  <span>★</span>
+                  <span>★</span>
+                  <span>★</span>
+                  <span>★</span>
+              </td>
+              <td class="text-center">Pending</td>
+              <td class="text-center">09-07-2024 08:27:15 PM</td>
+            </tr>
+            <tr>
+                <th>2</td>
+                <td>GR002</td>
+                <td>Language Translation Enquiry</td>
+                <td class="col-rate">
+                  <span>★</span>
+                  <span>★</span>
+                  <span>★</span>
+                  <span>★</span>
+                  <span>★</span>
+                </td>
+                <td class="text-center">In Process</td>
+                <td class="text-center">09-07-2024 08:27:15 PM</td>
+              </tr>
+              <tr>
+                <th>3</td>
+                <td>GR001</td>
+                <td>Language Translation Enquiry</td>
+                <td class="col-rate">
+                  <span class="checked">★</span>
+                  <span class="checked">★</span>
+                  <span class="checked">★</span>
+                  <span class="checked">★</span>
+                  <span>★</span>
+                </td>
+                <td class="text-center">Completed</td>
+                <td class="text-center">09-07-2024 08:27:15 PM</td>
+              </tr>
+              <tr>
+                <th>4</td>
+                <td>GR001</td>
+                <td>Language Translation Enquiry</td>
+                <td class="col-rate">
+                  <span class="checked">★</span>
+                  <span class="checked">★</span>
+                  <span class="checked">★</span>
+                  <span class="checked">★</span>
+                  <span class="checked">★</span>
+                </td>
+                <td class="text-center">Completed</td>
+                <td class="text-center">09-07-2024 08:27:15 PM</td>
+              </tr>
+              <tr>
+                <th>5</td>
+                <td>GR001</td>
+                <td>Language Translation Enquiry</td>
+                <td class="col-rate">
+                  <span class="checked">★</span>
+                  <span class="checked">★</span>
+                  <span class="checked">★</span>
+                  <span class="checked">★</span>
+                  <span class="checked">★</span>
+                </td>
+                <td class="text-center">Completed</td>
+                <td class="text-center">09-07-2024 08:27:15 PM</td>
+              </tr>
+              <tr>
+                <th>6</td>
+                <td>GR001</td>
+                <td>Language Translation Enquiry</td>
+                <td class="col-rate">
+                  <span class="checked">★</span>
+                  <span class="checked">★</span>
+                  <span class="checked">★</span>
+                  <span class="checked">★</span>
+                  <span class="checked">★</span>
+                </td>
+                <td class="text-center">Completed</td>
+                <td class="text-center">09-07-2024 08:27:15 PM</td>
+              </tr>
+              <tr>
+                <th>7</td>
+                <td>GR001</td>
+                <td>Language Translation Enquiry</td>
+                <td class="col-rate">
+                  <span class="checked">★</span>
+                  <span class="checked">★</span>
+                  <span class="checked">★</span>
+                  <span class="checked">★</span>
+                  <span class="checked">★</span>
+                </td>
+                <td class="text-center">Completed</td>
+                <td class="text-center">09-07-2024 08:27:15 PM</td>
+              </tr>
+              <tr>
+                <th>8</td>
+                <td>GR001</td>
+                <td>Language Translation Enquiry</td>
+                <td class="col-rate">
+                  <span class="checked">★</span>
+                  <span class="checked">★</span>
+                  <span class="checked">★</span>
+                  <span class="checked">★</span>
+                  <span class="checked">★</span>
+                </td>
+                <td class="text-center">Completed</td>
+                <td class="text-center">09-07-2024 08:27:15 PM</td>
+              </tr>
+              <tr>
+                <th>9</td>
+                <td>GR001</td>
+                <td>Language Translation Enquiry</td>
+                <td class="col-rate">
+                  <span class="checked">★</span>
+                  <span class="checked">★</span>
+                  <span class="checked">★</span>
+                  <span class="checked">★</span>
+                  <span class="checked">★</span>
+                </td>
+                <td class="text-center">Completed</td>
+                <td class="text-center">09-07-2024 08:27:15 PM</td>
+              </tr>
+              <tr>
+                <th>10</td>
+                <td>GR001</td>
+                <td>Language Translation Enquiry</td>
+                <td class="col-rate">
+                  <span class="checked">★</span>
+                  <span class="checked">★</span>
+                  <span class="checked">★</span>
+                  <span class="checked">★</span>
+                  <span class="checked">★</span>
+                </td>
+                <td class="text-center">Completed</td>
+                <td class="text-center">09-07-2024 08:27:15 PM</td>
+              </tr>
+  
+
+  
+          </tbody>
+        </table>
+    </div>
+
+    <!-- Pagination -->
+    <div class="d-flex justify-content-between align-items-center">
+        <p class="m-0">1 - 10 of 89 entries</p>
+        <ul class="pagination pagination-lg d-flex justify-content-center align-items-center">
+          <li class="page-item disabled">
+              <a class="page-link d-flex align-items-center" href="#">
+                <span class="material-symbols-outlined">chevron_left</span>
+              </a>
+          </li>
+          <li class="page-item"><a class="page-link active" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item">
+            <a class="page-link d-flex align-items-center" href="#">
+              <span class="material-symbols-outlined">chevron_right</span>
+            </a>
+          </li>
+        </ul>
+    </div>
+
+
+  
+    
+    
+  </div>
+
+  <!-- Right Bar - Messsage & Ticket Info-->
+  <div class="layer-ticket-right collapse collapse-horizontal" id="collapseTicket">
+    <div class="text-end">
+      <button class="btn-mini" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTicket"><span class="material-symbols-outlined">close</span></button>
+    </div>
+
+    <div class="layer-message form-general">
+      
+      <!-- Loader -->
+      <div class="icon-loader">
+        <img src="images/icon-loading.gif">
+      </div>
+      <!-- end Loader -->
+
+        <div class="layer-header">
+            Message
+        </div>
+        <div class="layer-msg">
+            <div class="msg">
+                <div class="d-flex justify-content-between align-items-center">
+                    <b>Language Translation Enquiry</b>
+                    <b class="grey">09-07-2024 08:27:15 PM</b>
+                </div>
+                <p>Regarding the table of content for all products, do we need to transklate the language too?</p>
+                <!-- Icon Attachment -->
+                <div class="icon-attach">
+                  <a href=""><span class="material-symbols-outlined fs-2 lightblue">attach_file </span></a>
+                </div>
+                <!-- end Icon Attachment -->
+            </div><!-- Msg 01 -->
+            <div class="msg mymsg">
+                <div class="d-flex justify-content-between align-items-center">
+                    <b>Language Translation Enquiry</b>
+                    <b class="grey">09-07-2024 08:27:15 PM</b>
+                </div>
+                <p>Regarding the table of content for all products, do we need to transklate the language too?</p>
+            </div><!-- Msg 01 -->
+            <div class="msg">
+                <div class="d-flex justify-content-between align-items-center">
+                    <b>Language Translation Enquiry</b>
+                    <b class="grey">09-07-2024 08:27:15 PM</b>
+                </div>
+                <p>Regarding the table of content for all products, do we need to transklate the language too?</p>
+            </div><!-- Msg 01 -->
+            <div class="msg mymsg">
+                <div class="d-flex justify-content-between align-items-center">
+                    <b>Language Translation Enquiry</b>
+                    <b class="grey">09-07-2024 08:27:15 PM</b>
+                </div>
+                <p>Regarding the table of content for all products, do we need to transklate the language too?</p>
+            </div><!-- Msg 01 -->
+            <div class="msg">
+                <div class="d-flex justify-content-between align-items-center">
+                    <b>Language Translation Enquiry</b>
+                    <b class="grey">09-07-2024 08:27:15 PM</b>
+                </div>
+                <p>Regarding the table of content for all products, do we need to transklate the language too?</p>
+            </div><!-- Msg 01 -->
+            <div class="msg mymsg">
+                <div class="d-flex justify-content-between align-items-center">
+                    <b>Language Translation Enquiry</b>
+                    <b class="grey">09-07-2024 08:27:15 PM</b>
+                </div>
+                <p>Regarding the table of content for all products, do we need to transklate the language too?</p>
+            </div><!-- Msg 01 -->
+        </div>
+
+        <div class="layer-header">
+            Response
+        </div>
+        <div class="p-3">
+            <textarea rows="4" class="form-control"></textarea>
+            <input type="file" class="my-3">
+            <div class="d-flex justify-content-between align-items-center">
+              <button type="button" class="btn-blue d-flex align-items-center"><span class="material-symbols-outlined">send</span>  <p>Submit</p></button>
+              <button type="button" class="btn-outline d-flex align-items-center" data-bs-toggle="modal" data-bs-target="#closeticketModal"><span class="material-symbols-outlined">check</span>  <p>Close Ticket</p></button>
+            </div>
+        </div> 
+        
+            
+        
+    </div>
+
+    <table class="table table-hover bg-white mt-4">
+        <thead class="table-primary">
+          <tr>
+            <th class="py-2">
+              <a class="d-flex justify-content-between align-items-center text-black text-decoration-none" data-bs-toggle="collapse" href="#collapseInfo" role="button" aria-expanded="false"  aria-controls="collapseInfo">
+                <b>Ticket Info</b>
+                <span class="material-symbols-outlined">chevron_right</span>
+              </a>
+            </th>
+          </tr>
+        </thead>
+        <tbody class="collapse" id="collapseInfo">
+            <tr><th>ID: Admin 1</td></tr>
+            <tr><th>Type</td></tr>
+            <tr><th>Category</td></tr>
+            <tr><th>Sub Category</td></tr>
+            <tr><th>Accepted Date</td></tr>
+            <tr><th>Closed Date</td></tr>
+            </tbody>                                                                                                                 
+    </table>          
+  </div>
+
+  <!--/*************************** MODAL ****************************************************/-->
+<div class="modal fade" id="closeticketModal">
+  <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content mx-auto w-100 rounded-4 bg-opacity-50">
+          <!-- Modal Header -->
+          <div class="modal-header">
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <!-- Modal Body -->
+          <div class="modal-body pt-0">
+              <div class="mx-auto text-center">
+                  <h2 class="modal-title">Close Ticket</h2>
+                  <div class="min-height">
+                    <p>Are you sure you want to close this ticket?</p>
+                  </div>
+
+                  <button type="submit" class="btn-blue" data-bs-toggle="modal" data-bs-target="#ratingModal">YES</button>
+
+                  <button type="submit" class="btn-outline ms-2" data-bs-dismiss="modal" aria-label="Close">NO</button>
+              </div>
+          </div>
+          <!-- Modal Footer -->
+          <div class="modal-footer">
+          </div>
+      </div>
+  </div>
+</div>
+
+<!--/***************************END***************************************************************************/-->
+
+<!--/*************************** MODAL ****************************************************/-->
+<div class="modal fade" id="ratingModal">
+  <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content mx-auto w-100 rounded-4 bg-opacity-50">
+          <!-- Modal Header -->
+          <div class="modal-header">
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <!-- Modal Body -->
+          <div class="modal-body pt-0">
+              <div class="mx-auto text-center">
+                  <h2 class="modal-title">Services Rating</h2>
+                  <div class="min-height">
+                    <p>Please rate your experience</p>
+                    <div class="layer-rate">
+                      <span class="checked">★</span>
+                      <span class="checked">★</span>
+                      <span class="checked">★</span>
+                      <span class="checked">★</span>
+                      <span>★</span>
+                    </div>
+                    <div class="layer-rate mb-5">
+                      <span class="fs-6 grey">Terrible</span>
+                      <span class="fs-6 grey">Poor</span>
+                      <span class="fs-6 grey">Fair</span>
+                      <span class="fs-6 grey">Good</span>
+                      <span class="fs-6 grey">Amazing</span>
+                    </div>
+                  </div>
+                
+                  <button type="submit" class="btn-blue">Submit</button>
+              </div>
+          </div>
+          <!-- Modal Footer -->
+          <div class="modal-footer">
+          </div>
+      </div>
+  </div>
+</div>
+
+<!--/***************************END***************************************************************************/-->
+
+  <!-- ******** Jquery ********-->
+	<script type="text/javascript" src="js/jquery-3.6.3.min.js"></script>
+
+  <!-- Bootstrap 5.2-->
+  <script type="text/javascript" src="vendor/bootstrap-5.2.3/js/bootstrap.bundle.js"></script>
+
+  <!-- WOW Animate -->
+  <script src="js/wow.js"></script>
+	<script>
+		new WOW().init();
+	</script>
+
+  <!-- ******** CHANGE TOGGLE ********-->
+  <script>
+    $(function() {
+      $('#ChangeToggle').click(function() {
+        $('#navbar-hamburger').toggleClass('hidden');
+        $('#navbar-close').toggleClass('hidden');  
+      });
+    });
+  
+  </script>
+
+
+
+</body>
+</html>

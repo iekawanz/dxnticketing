@@ -1,0 +1,53 @@
+// media aliases and breakpoints
+$screen-xs-max: 428px; //Iphone13 & below
+$screen-sm-max: 550px;
+$screen-md-max: 768px;
+$screen-lg-max: 992px;
+$screen-xl-max: 1024px;
+$screen-xxl-max: 1280px;
+$screen-xxxl-max: 1440px;
+
+
+// media devices
+@mixin xs {
+  @media screen and (max-width: #{$screen-xs-max}) {
+    @content;
+  }
+}
+
+@mixin sm {
+  @media screen and (max-width: #{$screen-sm-max}) {
+    @content;
+  }
+}
+
+@mixin md {
+  @media screen and (max-width: #{$screen-md-max}) {
+    @content;
+  }
+}
+
+@mixin lg {
+  @media screen and (max-width: #{$screen-lg-max}) {
+    @content;
+  }
+}
+
+@mixin xl {
+  @media screen and (max-width: #{$screen-xl-max}) {
+    @content;
+  }
+}
+
+@mixin xxl {
+  @media screen and (max-width: #{$screen-xxl-max}) {
+    @content;
+  }
+}
+
+@mixin xxxl {
+  @media screen and (max-width: #{$screen-xxxl-max}) {
+    @content;
+  }
+}
+

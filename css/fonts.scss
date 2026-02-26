@@ -1,0 +1,72 @@
+/*------------------------------------Montserrat START -----------------------------------*/
+
+@font-face {
+    font-family: 'Montserrat Light';
+    src: url('fonts/montserrat/Montserrat-Light.woff2') format('woff2'),
+         url('fonts/montserrat/Montserrat-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat Regular';
+    src: url('fonts/montserrat/Montserrat-Regular.woff2') format('woff2'),
+         url('fonts/montserrat/Montserrat-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat Medium';
+    src: url('fonts/montserrat/Montserrat-Medium.woff2') format('woff2'),
+         url('fonts/montserrat/Montserrat-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat Bold';
+    src: url('fonts/montserrat/Montserrat-Bold.woff2') format('woff2'),
+         url('fonts/montserrat/Montserrat-Bold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat SemiBold';
+    src: url('fonts/montserrat/Montserrat-SemiBold.woff2') format('woff2'),
+         url('fonts/montserrat/Montserrat-SemiBold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat ExtraBold';
+    src: url('fonts/montserrat/Montserrat-ExtraBold.woff2') format('woff2'),
+         url('fonts/montserrat/Montserrat-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+
+/*------------------------------------Montserrat END -----------------------------------*/
+
+
+
+/*------------------------------------ Material Icons START-----------------------------------*/
+
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url('fonts/material-icons/MaterialIconsOutlined-Regular.eot'); /* For IE6-8 */
+    src: local('Material Icons'),
+    local('MaterialIcons-Regular'),
+    url('fonts/material-icons/MaterialIconsOutlined-Regular.woff2') format('woff2'),
+    url('fonts/material-icons/MaterialIconsOutlined-Regular.woff') format('woff'),
+    url('fonts/material-icons/MaterialIconsOutlined-Regular.ttf') format('truetype');
+}
+
+/*------------------------------------ Material Icons END-----------------------------------*/
+
+
+
