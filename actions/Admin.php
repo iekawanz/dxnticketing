@@ -207,8 +207,7 @@ if(isset($_POST['func']) && $_POST['func'] == 'addOrUpdateAdmin')
                         tep_reg_email($to, $from, $subject, $emailContent, $headers);
 
                         //Send email to cc
-                        //$cc = ["laszlo@kocso.com", "krisztian@dxnshop.com"];
-                        $cc = ["zalikha_osman@dxn2u.com"];
+                        $cc = ["laszlo@kocso.com", "krisztian@dxnshop.com"];
                         tep_reg_email($cc, $from, $subject, $emailContent, $headers);
                     }
 

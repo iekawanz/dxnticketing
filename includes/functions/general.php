@@ -67,9 +67,8 @@ function tep_email($emailTo, $emailFrom, $subject, $body, $type = 'html', $attac
     }
   }
 
-  // $mail->addCC('laszlo@kocso.com');
-  // $mail->addCC('krisztian@dxnshop.com');
-  $mail->addCC('zalikha_osman@dxn2u.com');
+  $mail->addCC('laszlo@kocso.com');
+  $mail->addCC('krisztian@dxnshop.com');
   //$mail->addCC('steven@dxnshop.com');
 
   if ($type == 'html')
